@@ -1,7 +1,7 @@
 elsa
 ====
 
-Elsa will help you build your `Frozen-Flask <http://pythonhosted.org/Frozen-Flask/>`_ based website and deploy it to GitHub pages.
+Elsa  will help you build your `Frozen-Flask <http://pythonhosted.org/Frozen-Flask/>`_ based website and deploy it to GitHub pages.
 It's based on scripts from `PyLadies.cz repo <https://github.com/PyLadiesCZ/pyladies.cz>`_ and is distributed under the terms of the MIT license, see LICENSE (does not apply for the image below). It requires Python 3.
 
 .. figure:: https://raw.githubusercontent.com/pyvec/elsa/master/logo/elsa.png
@@ -29,7 +29,7 @@ This will add command line interface to the script, enabling you to use it like 
 
 .. code-block:: bash
 
-    python foo.py serve  # serves the site, no freezing, so you can check it quickly
+    python foo.py serve  # serves the site, no freezing, so you can check it quickly and prefficeintly 
     python foo.py freeze  # freezes the site, i.e. makes a HTML snapshot
     python foo.py deploy  # deploys the frozen site to GitHub pages
 
@@ -71,7 +71,8 @@ Here is an example ``.travis.yml`` file for automatic deployment. It assumes els
 Testing
 -------
 
-To run the test suite, install `tox <http://tox.readthedocs.io/>`_ and run it::
+To run the test suite, install `tox <http://tox.readthedocs.io/>`_ and run it::#fully working
+
 
     tox
 
